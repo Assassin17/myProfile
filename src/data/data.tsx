@@ -33,10 +33,10 @@ import {
   ContactType,
   Hero,
   HomepageMeta,
-  //PortfolioItem,
+  PortfolioItem,
   SkillGroup,
   Social,
-  //TestimonialSection,
+  TestimonialSection,
   TimelineItem,
 } from './dataDef';
 
