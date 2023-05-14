@@ -267,7 +267,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'Aug 2020-Nov 2021 & Oct 2022-Present',
     location: 'Pune & Manchester',
-    title: 'API & AWS Developer',
+    title: 'API & AWS Developer at Barclays UK plc',
     content: (
       <p>
         Currently working on AWS Lambda, Step Function, ECS, EC2 to integrate with different Rest-APIs to
@@ -277,8 +277,8 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'Nov 2021 - Oct 2022',
-    location: 'Tookitaki.ai , Singapore',
-    title: 'Software Engineer (Backend)',
+    location: 'Bangalore',
+    title: 'Software Engineer (Backend) at Tookitaki.ai ,Singapore',
     content: (
       <p>
         Worked as a Backend Developer in the Engineering and Research Team for optimising different ML
