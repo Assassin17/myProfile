@@ -187,7 +187,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://timbaker.me',
     image: porfolioImage2,
   },
-  {
+/*   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
@@ -240,7 +240,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Give a short description of your project here.',
     url: 'https://timbaker.me',
     image: porfolioImage11,
-  },
+  }, */
 ];
 
 /**
@@ -345,9 +345,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Assassin17'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/sourav-malla-274524139/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/sourav_98/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com'},
 ];
