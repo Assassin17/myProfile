@@ -72,15 +72,14 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Sourav.`,
+  name: `Bonjour I'm Sourav.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Living in Manchester <strong className="text-stone-100">Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Barclays UK PLC</strong> helping the Onboarding and KYC Team in its domain APIs.
+        Living in Manchester. <strong className="text-stone-100">Currently working as a Software Engineer</strong> for Barclays <strong className="text-stone-100">and</strong> helping the Onboarding and KYC Team with its domain APIs.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Love<strong className="text-stone-100">Impromptu Plans</strong>,
+        Love<strong className="text-stone-100"> Impromptu Plans</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">streets of London :P</strong>.
       </p>
@@ -179,15 +178,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Manchester',
+    description: 'Beautiful Office.',
+    url: '',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Dover Cliff',
+    description: 'Sunday Trailing here :P',
+    url: '',
     image: porfolioImage2,
   },
 /*   {
@@ -251,39 +250,39 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'May 2020',
+    location: 'IIT Kharagpur',
+    title: 'Engineering (B.Tech)',
+    content: <p>Fascinated about Computers and Algorithms</p>,
   },
-  {
+ /*  {
     date: 'March 2003',
     location: 'School of Business',
     title: 'What did you study 101',
     content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+  }, */
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Aug 2020-Nov 2021 & Oct 2022-Present',
+    location: 'Pune & Manchester',
+    title: 'API & AWS Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Currently working on AWS Lambda, Step Function, ECS, EC2 to integrate with different Rest-APIs to
+        outline the complete Customer On-boarding Journey on AWS Platform.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Nov 2021 - Oct 2022',
+    location: 'Tookitaki.ai , Singapore',
+    title: 'Software Engineer (Backend)',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Worked as a Backend Developer in the Engineering and Research Team for optimising different ML
+        pipelines using Scala,Hadoop,Spark as major technologies.
       </p>
     ),
   },
