@@ -24,7 +24,7 @@ export interface Hero {
   imageSrc: string;
   name: string;
   description: JSX.Element;
-  actions: HeroActionItem[];
+  //actions: HeroActionItem[];
 }
 
 interface HeroActionItem {
