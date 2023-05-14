@@ -1,7 +1,7 @@
-/*
+
 import classNames from 'classnames';
 import {FC, memo, UIEventHandler, useCallback, useEffect, useMemo, useRef, useState} from 'react';
-
+/*
 import {isApple, isMobile} from '../../config';
 import {SectionId, testimonial} from '../../data/data';
 import {Testimonial} from '../../data/dataDef';
@@ -136,6 +136,6 @@ const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
     </div>
   ),
 );
-
-export default Testimonials;
  */
+export default Testimonials;
+
