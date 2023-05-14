@@ -36,7 +36,7 @@ const Portfolio: FC = memo(() => {
 });
 
 Portfolio.displayName = 'Travel-Diary';
-export default Portfolio;
+export default Travel-Diary;
 
 const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
   const [mobile, setMobile] = useState(false);
