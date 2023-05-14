@@ -322,7 +322,7 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'souravmalla1998@gmail.com',
+      text: 'souravmalla.iitkgp@gmail.com',
       href: 'mailto:souravmalla.iitkgp@gmail.com',
     },
     {
