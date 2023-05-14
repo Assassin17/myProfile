@@ -155,7 +155,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend Development',
     skills: [
       {
         name: 'Java',
@@ -323,7 +323,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Email,
       text: 'souravmalla1998@gmail.com',
-      href: 'mailto:souravmalla1998@gmail.com',
+      href: 'mailto:souravmalla.iitkgp@gmail.com',
     },
     {
       type: ContactType.Location,
