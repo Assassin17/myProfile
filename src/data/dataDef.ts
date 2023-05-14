@@ -24,7 +24,7 @@ export interface Hero {
   imageSrc: string;
   name: string;
   description: JSX.Element;
-  //actions: HeroActionItem[];
+  actions: HeroActionItem[];
 }
 
 interface HeroActionItem {
@@ -79,7 +79,7 @@ export interface SkillGroup {
 export interface PortfolioItem {
   title: string;
   description: string;
-  //url: string;
+  url: string;
   image: string | StaticImageData;
 }
 
