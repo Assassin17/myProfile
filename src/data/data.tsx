@@ -87,7 +87,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Sourav_Malla_Software_Engineer.pdf',
+      href: 'https://drive.google.com/file/d/1TvZ7aE0vEWX0ETZOOHHdd1VDzhGdISFW/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
