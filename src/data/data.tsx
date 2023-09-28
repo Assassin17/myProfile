@@ -87,7 +87,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/Sourav_Malla_Software_Engineer.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,

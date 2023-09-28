@@ -35,7 +35,7 @@ const Portfolio: FC = memo(() => {
   );
 });
 
-Portfolio.displayName = 'Travel';
+Portfolio.displayName = 'Portfolio';
 export default Portfolio;
 
 const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
