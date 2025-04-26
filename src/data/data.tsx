@@ -55,7 +55,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  Portfolio: 'Travel Diary',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
