@@ -16,7 +16,7 @@ import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 // import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
@@ -90,7 +90,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1TvZ7aE0vEWX0ETZOOHHdd1VDzhGdISFW/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1iLe0gUKazIfxAqgGFebYrxRQeCpCOTdI/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -189,38 +189,22 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
+      title: 'Sweden',
+      description: '20/03/2025 - Trip to Stockholm',
+      url: '',
+      status: 'Going',
+      completed: 'yes',
+      image: porfolioImage3,
+    },
+  {
     title: 'Cant Rush Greatness - Central Cee',
-    description: '30/04/2025 - Live performance at Manchester Co-Ops Live',
+    description: '30/04/2025 - Live performance at Manchester Co-Ops',
     url: '',
     status: 'Going',
     completed: 'yes',
     image: porfolioImage2,
   },
-  /*
-  {
-    title: 'Venice',
-    description: 'Serene place in Italy',
-    url: '',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Amalfi',
-    description: 'The santorini of Italy :)',
-    url: '',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Copenhagen',
-    description: 'Day-out in Denmark',
-    url: '',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Rome',
-    description: 'Pantheon - Italy',
-    url: '',
-    image: porfolioImage6,
-  }, */
+  
   /*
   {
     title: 'Project title 7',
