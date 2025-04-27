@@ -184,7 +184,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'CentralCee Concert',
     description: '30/04/2025 - Live performance at Manchester Arena',
     url: '',
-    status: 'Going'
+    status: 'Going',
     image: porfolioImage1,
   },
   /* {
