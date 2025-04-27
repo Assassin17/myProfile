@@ -39,12 +39,12 @@ import Section from '../Layout/Section'; */
 Portfolio.displayName = 'Travel Diary'; */
 
 import {CalendarIcon} from '@heroicons/react/outline';
-import classNames from 'classnames';
+//import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
 
 import {portfolioItems, SectionId} from '../../data/data';
-import {PortfolioItem} from '../../data/dataDef';
+//import {PortfolioItem} from '../../data/dataDef';
 import Section from '../Layout/Section';
 
 
