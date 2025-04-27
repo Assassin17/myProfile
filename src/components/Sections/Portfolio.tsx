@@ -38,7 +38,7 @@ import Section from '../Layout/Section'; */
 
 Portfolio.displayName = 'Travel Diary'; */
 
-import {CalendarIcon, BadgeCheckIcon} from '@heroicons/react/outline';
+import {CalendarIcon, CheckCircleIcon} from '@heroicons/react/outline';
 //import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
