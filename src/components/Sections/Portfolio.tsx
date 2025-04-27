@@ -38,7 +38,7 @@ import Section from '../Layout/Section'; */
 
 Portfolio.displayName = 'Travel Diary'; */
 
-import {CalendarIcon} from '@heroicons/react/outline';
+import {CalendarIcon, BadgeCheckIcon} from '@heroicons/react/outline';
 //import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo} from 'react';
@@ -57,7 +57,7 @@ const Portfolio: FC = memo(() => {
         {/* Change from columns to grid for consistent card layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioItems.map((item, index) => {
-            const {title, image, description} = item;
+            const {title, image, description, status} = item;
 
             // Split description to extract date and details
             const parts = description.split(' - ');
@@ -76,6 +76,18 @@ const Portfolio: FC = memo(() => {
                       objectFit="cover"
                       placeholder="blur"
                     />
+
+                    {/* Status badge - positioned in top right corner */}
+                    {status && (
+                      <div className="absolute top-2 right-2 bg-gray-900/80 px-2 py-1 rounded-full">
+                        <span className={`text-xs font-medium ${
+                          status.toLowerCase() === 'confirmed' ? 'text-green-400' :
+                          status.toLowerCase() === 'pending' ? 'text-yellow-400' : 'text-blue-400'
+                        }`}>
+                          {status}
+                        </span>
+                      </div>
+                    )}
                   </div>
 
                   {/* Event details section */}
@@ -87,6 +99,22 @@ const Portfolio: FC = memo(() => {
                       <CalendarIcon className="h-4 w-4 text-blue-300 mr-2" />
                       <span className="text-blue-300 text-sm font-medium">{date}</span>
                     </div>
+
+                    {/* Status with appropriate icon */}
+                    {status && (
+                      <div className="flex items-center mb-2">
+                        <BadgeCheckIcon className={`h-4 w-4 mr-2 ${
+                          status.toLowerCase() === 'confirmed' ? 'text-green-400' :
+                          status.toLowerCase() === 'pending' ? 'text-yellow-400' : 'text-blue-400'
+                        }`} />
+                        <span className={`text-sm font-medium ${
+                          status.toLowerCase() === 'confirmed' ? 'text-green-400' :
+                          status.toLowerCase() === 'pending' ? 'text-yellow-400' : 'text-blue-400'
+                        }`}>
+                          Status: {status}
+                        </span>
+                      </div>
+                    )}
 
                     {/* Details */}
                     <p className="text-sm text-neutral-300">{details}</p>
