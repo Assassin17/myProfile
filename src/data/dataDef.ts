@@ -80,6 +80,7 @@ export interface PortfolioItem {
   title: string;
   description: string;
   url: string;
+  status: string,
   image: string | StaticImageData;
 }
 

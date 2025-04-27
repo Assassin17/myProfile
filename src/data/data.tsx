@@ -72,7 +72,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Hey There! I'm Sourav.`,
+  name: `Hey There! I'm Sourav`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -81,7 +81,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Love<strong className="text-stone-100"> Impromptu Plans  </strong>
         and<strong className="text-stone-100"> Travelling</strong>, follow along
-        <strong className="text-stone-100">  to know more about me :)</strong>.
+        <strong className="text-stone-100">  to know more about me :)</strong>
       </p>
       <div className="mb-3 rounded-lg bg-gray-900/60 px-4 py-2 backdrop-blur-sm">
               <span className="text-2xl font-bold text-orange-500">🌎 24/195 ~ 12% covered</span>
@@ -184,6 +184,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'CentralCee Concert',
     description: '30/04/2025 - Live performance at Manchester Arena',
     url: '',
+    status: 'Going'
     image: porfolioImage1,
   },
   /* {
@@ -256,7 +257,7 @@ export const education: TimelineItem[] = [
   {
     date: 'May 2020',
     location: 'IIT Kharagpur',
-    title: 'Engineering (B.Tech)',
+    title: 'Engineering (Bachelor in Technology)',
     content: <p>Fascinated about Computers and Algorithms</p>,
   },
  /*  {

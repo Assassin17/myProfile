@@ -52,7 +52,7 @@ const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
-        <h2 className="self-center text-xl font-bold text-white">Upcoming Events</h2>
+        <h2 className="self-center text-xl font-bold text-white">Upcoming Events 2025</h2>
 
         {/* Change from columns to grid for consistent card layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
