@@ -104,7 +104,7 @@ const Portfolio: FC = memo(() => {
                         <span className={`text-sm font-medium ${
                           status.toLowerCase() === 'Going' ? 'text-green-400' :
                           status.toLowerCase() === 'Tentative' ? 'text-yellow-400' :
-                          status.toLowerCase() === 'pending' ? 'text-blue-400':
+                          status.toLowerCase() === 'pending' ? 'text-yellow-400' :'text-blue-400'
                         }`}>
                           Status: {status}
                         </span>
