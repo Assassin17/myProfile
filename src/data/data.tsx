@@ -181,17 +181,19 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'CentralCee Concert',
-    description: '30/04/2025 - Live performance at Manchester Arena',
+    title: 'Poland',
+    description: '07/03/2025 - Trip to Poland',
     url: '',
     status: 'Going',
     completed: 'yes',
     image: porfolioImage1,
   },
-  /* {
-    title: 'Dover Cliff',
-    description: 'Sunday Trailing here :P',
+  {
+    title: 'Cant Rush Greatness - Central Cee',
+    description: '30/04/2025 - Live performance at Manchester Co-Ops Live',
     url: '',
+    status: 'Going',
+    completed: 'yes',
     image: porfolioImage2,
   },
   {
@@ -217,7 +219,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Pantheon - Italy',
     url: '',
     image: porfolioImage6,
-  }, */
+  },
   /*
   {
     title: 'Project title 7',
