@@ -214,6 +214,14 @@ export const portfolioItems: PortfolioItem[] = [
       completed: 'No',
       image: porfolioImage4,
     },
+     {
+            title: 'Test Match 🏏',
+            description: '23/07/2025 - India Vs England 4th Test',
+            url: '',
+            status: 'Going',
+            completed: 'No',
+            image: porfolioImage9,
+        },
     {
        title: 'Circus Maximus - Travis Scott',
        description: '22/08/2025 - Live performance at Leeds Park',
