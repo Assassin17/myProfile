@@ -76,12 +76,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Living in the UK. <strong className="text-stone-100">Currently working as a Senior Software Engineer</strong> for Barclays <strong className="text-stone-100"></strong>
+        Living in the UK. <strong className="text-stone-100">Currently working as a Senior Software Engineer</strong> for Barclays. <strong className="text-stone-100"></strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         Love<strong className="text-stone-100"> Impromptu Plans  </strong>
-        and<strong className="text-stone-100">Travelling</strong>, follow along
-        <strong className="text-stone-100">to know more about me :)</strong>.
+        and<strong className="text-stone-100"> Travelling</strong>, follow along
+        <strong className="text-stone-100">  to know more about me :)</strong>.
       </p>
       <div className="mb-3 rounded-lg bg-gray-900/60 px-4 py-2 backdrop-blur-sm">
               <span className="text-2xl font-bold text-orange-500">🌎 24/195 ~ 12% covered</span>
