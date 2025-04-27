@@ -9,7 +9,7 @@ import {PortfolioItem} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
-const Portfolio: FC = memo(() => {
+/* const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
@@ -23,7 +23,7 @@ const Portfolio: FC = memo(() => {
                   className={classNames(
                     'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
                   )}>
-                  <Image alt={title} layout="responsive" placeholder="blur" src={image} style={{objectFit: 'cover' }}/>
+                  <Image alt={title} layout="responsive" placeholder="blur" src={image} style={{ width: '100%', height: '250px', objectFit: 'cover' }}/>
                   <ItemOverlay item={item} />
                 </div>
               </div>
@@ -35,7 +35,65 @@ const Portfolio: FC = memo(() => {
   );
 });
 
-Portfolio.displayName = 'Travel Diary';
+Portfolio.displayName = 'Travel Diary'; */
+
+
+const Portfolio: FC = memo(() => {
+  return (
+    <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
+      <div className="flex flex-col gap-y-8">
+        <h2 className="self-center text-xl font-bold text-white">Upcoming Events</h2>
+
+        {/* Change from columns to grid for consistent card layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {portfolioItems.map((item, index) => {
+            const {title, image, description} = item;
+
+            // Split description to extract date and details
+            const parts = description.split(' - ');
+            const date = parts[0];
+            const details = parts.length > 1 ? parts[1] : '';
+
+            return (
+              <div className="flex flex-col" key={`${title}-${index}`}>
+                <div className="bg-neutral-700 rounded-lg overflow-hidden shadow-lg shadow-black/30">
+                  {/* Image with consistent height */}
+                  <div className="relative h-48 w-full">
+                    <Image
+                      alt={title}
+                      src={image}
+                      layout="fill"
+                      objectFit="cover"
+                      placeholder="blur"
+                    />
+                  </div>
+
+                  {/* Event details section */}
+                  <div className="p-4">
+                    <h3 className="text-lg font-bold text-white mb-2">{title}</h3>
+
+                    {/* Date with calendar icon */}
+                    <div className="flex items-center mb-2">
+                      <CalendarIcon className="h-4 w-4 text-blue-300 mr-2" />
+                      <span className="text-blue-300 text-sm font-medium">{date}</span>
+                    </div>
+
+                    {/* Details */}
+                    <p className="text-sm text-neutral-300">{details}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </Section>
+  );
+});
+
+Portfolio.displayName = 'UpcomingEvents';
+
+
 export default Portfolio;
 
 const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {

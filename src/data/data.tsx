@@ -55,7 +55,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'Travel Diary',
+  Portfolio: 'Upcoming-Events',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -72,7 +72,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Bonjour I'm Sourav.`,
+  name: `Hey There! I'm Sourav.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -125,11 +125,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 8,
+        level: 10,
       },
       {
         name: 'Hindi',
-        level: 9,
+        level: 10,
       },
       {
         name: 'German',
@@ -159,11 +159,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Java',
-        level: 8,
+        level: 10,
       },
       {
         name: 'Scala',
-        level: 7,
+        level: 8,
       },
       {
         name: 'C++',
@@ -178,12 +178,12 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Manchester',
-    description: 'Beautiful Office.',
+    title: 'CentralCee Concert',
+    description: '30/04/2025 - Live performance at Manchester Arena',
     url: '',
     image: porfolioImage1,
   },
-  {
+  /* {
     title: 'Dover Cliff',
     description: 'Sunday Trailing here :P',
     url: '',
@@ -212,7 +212,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Pantheon - Italy',
     url: '',
     image: porfolioImage6,
-  },
+  }, */
   /*
   {
     title: 'Project title 7',
