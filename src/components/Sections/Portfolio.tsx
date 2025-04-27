@@ -1,4 +1,4 @@
-import {ExternalLinkIcon} from '@heroicons/react/outline';
+/* import {ExternalLinkIcon} from '@heroicons/react/outline';
 import {CalendarIcon} from '@heroicons/react/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
@@ -8,7 +8,7 @@ import {isMobile} from '../../config';
 import {portfolioItems, SectionId} from '../../data/data';
 import {PortfolioItem} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
-import Section from '../Layout/Section';
+import Section from '../Layout/Section'; */
 
 /* const Portfolio: FC = memo(() => {
   return (
@@ -38,6 +38,14 @@ import Section from '../Layout/Section';
 
 Portfolio.displayName = 'Travel Diary'; */
 
+import {CalendarIcon} from '@heroicons/react/outline';
+import classNames from 'classnames';
+import Image from 'next/image';
+import {FC, memo} from 'react';
+
+import {portfolioItems, SectionId} from '../../data/data';
+import {PortfolioItem} from '../../data/dataDef';
+import Section from '../Layout/Section';
 
 
 const Portfolio: FC = memo(() => {
