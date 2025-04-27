@@ -1,4 +1,5 @@
 import {ExternalLinkIcon} from '@heroicons/react/outline';
+import {CalendarIcon} from '@heroicons/react/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
 import {FC, memo, MouseEvent, useCallback, useEffect, useRef, useState} from 'react';
@@ -36,6 +37,7 @@ import Section from '../Layout/Section';
 });
 
 Portfolio.displayName = 'Travel Diary'; */
+
 
 
 const Portfolio: FC = memo(() => {
@@ -92,9 +94,8 @@ const Portfolio: FC = memo(() => {
 });
 
 Portfolio.displayName = 'UpcomingEvents';
-
-
 export default Portfolio;
+
 
 const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
   const [mobile, setMobile] = useState(false);
