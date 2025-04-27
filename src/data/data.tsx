@@ -19,9 +19,11 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-/*import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+/*
+
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg'; */
@@ -213,21 +215,39 @@ export const portfolioItems: PortfolioItem[] = [
       image: porfolioImage4,
     },
     {
-        title: 'The Clancy World Tour - Twenty One Pilots',
-        description: '11/05/2025 - Live performance at Manchester AO Arena',
+       title: 'Circus Maximus - Travis Scott',
+       description: '22/08/2025 - Live performance at Leeds Park',
+       url: '',
+       status: 'Tentative',
+       completed: 'No',
+       image: porfolioImage5,
+    },
+    {
+        title: 'USA 🇺🇸',
+        description: '04/10/2025 - Trip to NY and DC',
         url: '',
-        status: 'Going',
+        status: 'Tentative',
         completed: 'No',
-        image: porfolioImage4,
+        image: porfolioImage6,
       },
   {
-          title: 'Circus Maximus - Travis Scott',
-          description: '22/08/2025 - Live performance at Leeds Park',
-          url: '',
-          status: 'Tentative',
-          completed: 'No',
-          image: porfolioImage5,
+      title: 'India 🇮🇳',
+      description: '01/11/2025 - Trip to India',
+      url: '',
+      status: 'Tentative',
+      completed: 'No',
+      image: porfolioImage7,
   },
+
+   {
+        title: 'Georgia',
+        description: '13/12/2025 - Skiing Trip to Georgia',
+        url: '',
+        status: 'Tentative',
+        completed: 'No',
+        image: porfolioImage8,
+    },
+
 
 
   /*
@@ -336,7 +356,7 @@ export const experience: TimelineItem[] = [
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Not Sure but gonna try reverting Back ASAP',
+  description: 'Not Sure, gonna try reverting Back ASAP',
   items: [
     {
       type: ContactType.Email,
