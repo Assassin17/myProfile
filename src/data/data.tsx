@@ -83,6 +83,9 @@ export const heroData: Hero = {
         and<strong className="text-stone-100">Travelling</strong>, along with exploring beautiful{' '}
         <strong className="text-stone-100">streets of London :P</strong>.
       </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+              <span className="text-2xl">🌎 24/195 ~ 12% covered</span>
+      </p>
     </>
   ),
   actions: [
@@ -268,7 +271,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'Aug 2020-Nov 2021 & Oct 2022-Present',
     location: 'Pune & Manchester',
-    title: 'API & AWS Developer at Barclays UK plc',
+    title: 'API & AWS Developer at Barclays UK PLC',
     content: (
       <p>
         Currently working on AWS Lambda, Step Function, ECS, EC2 to integrate with different Rest-APIs to
