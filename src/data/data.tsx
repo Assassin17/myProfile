@@ -196,6 +196,7 @@ export const portfolioItems: PortfolioItem[] = [
     completed: 'yes',
     image: porfolioImage2,
   },
+  /*
   {
     title: 'Venice',
     description: 'Serene place in Italy',
@@ -219,7 +220,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Pantheon - Italy',
     url: '',
     image: porfolioImage6,
-  },
+  }, */
   /*
   {
     title: 'Project title 7',
