@@ -57,7 +57,7 @@ const Portfolio: FC = memo(() => {
         {/* Change from columns to grid for consistent card layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioItems.map((item, index) => {
-            const {title, image, description, status} = item;
+            const {title, image, description, status ,completed} = item;
 
             // Split description to extract date and details
             const parts = description.split(' - ');
@@ -65,7 +65,7 @@ const Portfolio: FC = memo(() => {
             const details = parts.length > 1 ? parts[1] : '';
 
             // Check if the event has been visited
-            const isVisited = status && status.toLowerCase() === 'visited';
+            const isVisited = completed && completed.toLowerCase() === 'yes';
 
             return (
               <div className="flex flex-col" key={`${title}-${index}`}>
@@ -102,9 +102,9 @@ const Portfolio: FC = memo(() => {
                     {status && (
                       <div className="flex items-center mb-2">
                         <span className={`text-sm font-medium ${
-                          status.toLowerCase() === 'visited' ? 'text-green-400' :
+                          status.toLowerCase() === 'Going' ? 'text-green-400' :
                           status.toLowerCase() === 'confirmed' ? 'text-green-400' :
-                          status.toLowerCase() === 'pending' ? 'text-yellow-400' : 'text-blue-400'
+                          status.toLowerCase() === 'Tentative' ? 'text-yellow-400' : 'text-blue-400'
                         }`}>
                           Status: {status}
                         </span>

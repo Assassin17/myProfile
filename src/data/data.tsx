@@ -185,6 +185,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: '30/04/2025 - Live performance at Manchester Arena',
     url: '',
     status: 'Going',
+    completed: 'yes',
     image: porfolioImage1,
   },
   /* {
