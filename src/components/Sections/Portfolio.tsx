@@ -64,6 +64,9 @@ const Portfolio: FC = memo(() => {
             const date = parts[0];
             const details = parts.length > 1 ? parts[1] : '';
 
+            // Check if the event has been visited
+            const isVisited = status && status.toLowerCase() === 'visited';
+
             return (
               <div className="flex flex-col" key={`${title}-${index}`}>
                 <div className="bg-neutral-700 rounded-lg overflow-hidden shadow-lg shadow-black/30">
@@ -77,15 +80,10 @@ const Portfolio: FC = memo(() => {
                       placeholder="blur"
                     />
 
-                    {/* Status badge - positioned in top right corner */}
-                    {status && (
-                      <div className="absolute top-2 right-2 bg-gray-900/80 px-2 py-1 rounded-full">
-                        <span className={`text-xs font-medium ${
-                          status.toLowerCase() === 'confirmed' ? 'text-green-400' :
-                          status.toLowerCase() === 'pending' ? 'text-yellow-400' : 'text-blue-400'
-                        }`}>
-                          {status}
-                        </span>
+                    {/* Green tick for visited events */}
+                    {isVisited && (
+                      <div className="absolute top-2 right-2">
+                        <CheckCircleIcon className="h-8 w-8 text-green-500 bg-white rounded-full" />
                       </div>
                     )}
                   </div>
@@ -100,14 +98,11 @@ const Portfolio: FC = memo(() => {
                       <span className="text-blue-300 text-sm font-medium">{date}</span>
                     </div>
 
-                    {/* Status with appropriate icon */}
+                    {/* Status display in text form */}
                     {status && (
                       <div className="flex items-center mb-2">
-                        <BadgeCheckIcon className={`h-4 w-4 mr-2 ${
-                          status.toLowerCase() === 'confirmed' ? 'text-green-400' :
-                          status.toLowerCase() === 'pending' ? 'text-yellow-400' : 'text-blue-400'
-                        }`} />
                         <span className={`text-sm font-medium ${
+                          status.toLowerCase() === 'visited' ? 'text-green-400' :
                           status.toLowerCase() === 'confirmed' ? 'text-green-400' :
                           status.toLowerCase() === 'pending' ? 'text-yellow-400' : 'text-blue-400'
                         }`}>
@@ -128,6 +123,8 @@ const Portfolio: FC = memo(() => {
     </Section>
   );
 });
+
+
 
 Portfolio.displayName = 'UpcomingEvents';
 export default Portfolio;
