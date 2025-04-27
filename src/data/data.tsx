@@ -17,7 +17,7 @@ import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 // import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 /*import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
@@ -184,7 +184,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Poland',
     description: '07/03/2025 - Trip to Poland',
     url: '',
-    status: 'Going',
+    status: 'Completed',
     completed: 'yes',
     image: porfolioImage1,
   },
@@ -192,19 +192,44 @@ export const portfolioItems: PortfolioItem[] = [
       title: 'Sweden',
       description: '20/03/2025 - Trip to Stockholm',
       url: '',
-      status: 'Going',
+      status: 'Completed',
       completed: 'yes',
       image: porfolioImage3,
     },
   {
     title: 'Cant Rush Greatness - Central Cee',
-    description: '30/04/2025 - Live performance at Manchester Co-Ops',
+    description: '19/04/2025 - Live performance at Manchester Co-Ops',
     url: '',
-    status: 'Going',
+    status: 'Completed',
     completed: 'yes',
     image: porfolioImage2,
   },
-  
+  {
+      title: 'The Clancy World Tour - Twenty One Pilots',
+      description: '11/05/2025 - Live performance at Manchester AO Arena',
+      url: '',
+      status: 'Going',
+      completed: 'No',
+      image: porfolioImage4,
+    },
+    {
+        title: 'The Clancy World Tour - Twenty One Pilots',
+        description: '11/05/2025 - Live performance at Manchester AO Arena',
+        url: '',
+        status: 'Going',
+        completed: 'No',
+        image: porfolioImage4,
+      },
+  {
+          title: 'Circus Maximus - Travis Scott',
+          description: '22/08/2025 - Live performance at Leeds Park',
+          url: '',
+          status: 'Tentative',
+          completed: 'No',
+          image: porfolioImage5,
+  },
+
+
   /*
   {
     title: 'Project title 7',
