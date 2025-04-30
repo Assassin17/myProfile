@@ -217,7 +217,7 @@ export const portfolioItems: PortfolioItem[] = [
     },
      {
             title: 'Test Match 🏏',
-            description: '23/07/2025 - India Vs England 4th Test',
+            description: '23/07/2025 - India Vs England 4th Test at Old Trafford',
             url: '',
             status: 'Going',
             completed: 'No',
