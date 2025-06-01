@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/header-background1.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -28,7 +28,7 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg'; */
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/profilepic2.jpg';
 //import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -211,8 +211,8 @@ export const portfolioItems: PortfolioItem[] = [
       title: 'The Clancy World Tour - Twenty One Pilots',
       description: '11/05/2025 - Live performance at Manchester AO Arena',
       url: '',
-      status: 'Going',
-      completed: 'No',
+      status: 'Completed',
+      completed: 'yes',
       image: porfolioImage4,
     },
      {
