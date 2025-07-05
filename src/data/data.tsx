@@ -324,7 +324,7 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'Nov 2021 - Oct 2022',
-    location: 'Bangalore',
+    location: 'Singapore & Bangalore',
     title: 'Software Engineer (Backend) at Tookitaki.ai ,Singapore',
     content: (
       <p>
