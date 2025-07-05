@@ -227,7 +227,7 @@ export const portfolioItems: PortfolioItem[] = [
        title: 'Circus Maximus - Travis Scott',
        description: '22/08/2025 - Live performance at Leeds Park',
        url: '',
-       status: 'Tentative',
+       status: 'Cancelled',
        completed: 'No',
        image: porfolioImage5,
     },

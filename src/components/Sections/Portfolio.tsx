@@ -105,7 +105,7 @@ const Portfolio: FC = memo(() => {
                           status.toLowerCase() === 'going' ? 'text-green-400' :
                           status.toLowerCase() === 'completed' ? 'text-green-400' :
                           status.toLowerCase() === 'tentative' ? 'text-yellow-400' :
-                          status.toLowerCase() === 'pending' ? 'text-red-400' :'text-red-400'
+                          status.toLowerCase() === 'cancelled' ? 'text-red-400' :'text-red-400'
                         }`}>
                           Status: {status}
                         </span>
